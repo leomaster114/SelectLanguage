@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_ptit"
+            android:textSize="32dp"
+            android:layout_marginTop="100dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#FF5722"
+            android:layout_gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello" />
+        <TextView
+            android:layout_marginTop="16dp"
+            android:id="@+id/tv_name"
+            android:textSize="32dp"
+            android:textStyle="italic"
+            android:gravity="center"
+            android:textColor="#00BCD4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/myname" />
+        <Button
+            android:layout_margin="16dp"
+            android:padding="5dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center_horizontal"
+            android:background="#3F51B5"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:id="@+id/btn_reset"
+            android:text="@string/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SelectLanguage</string>
+    <string name="hello">I love PTIT</string>
+    <string name="myname">I am : Nguyễn Văn Hoà</string>
+    <string name="select">Please select Language</string>
+    <string name="reset">Reset language</string>
+<!--    <string name="enlish">English</string>-->
+<!--    <string name="vietnam">Vietnamese</string>-->
+</resources>
